@@ -1,0 +1,1 @@
+ Node. js's asynchronous nature allows it to handle a large number of concurrent connections efficiently. By leveraging non-blocking I/O operations and asynchronous event handling, Node. js can serve multiple clients simultaneously without consuming excessive resources.
