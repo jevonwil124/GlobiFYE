@@ -1,0 +1,9 @@
+To deploy a Node.js application to Azure App Services, you can follow these steps:
+Create an Azure account: Sign in to the Azure portal and create an account with an active subscription.
+Create an App Service: Select App Services from the left-hand menu, click Add, and then create a new App Service.
+Set the OS and Runtime Stack: Set the OS to Linux and the Runtime Stack to the desired Node.js version.
+Add settings: In the Application settings section, add settings with the names SCM_SCRIPT_GENERATOR_ARGS and WEBSITE_NODE_DEFAULT_VERSION.
+Choose a source: Open the App Service, select Deployment options, click Choose source, and then select GitHub.
+Select the repository and branch: Choose the repository and branch to publish, and then select OK. 
+
+A common benefit of using Azure App Services for hosting applications is its fully managed nature, meaning you don't need to worry about managing the underlying server infrastructure, allowing developers to focus on application development while Azure handles tasks like patching, scaling, and load balancing automatically.

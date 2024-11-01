@@ -1,0 +1,5 @@
+A primary key is a column or a group of columns used to uniquely identify a row in a table. The column that participates in the primary key is known as the primary key column.
+
+A table can have zero or one primary key. It cannot have more than one primary key.
+
+It is a good practice to add a primary key to every table. When you add a primary key to a table, PostgreSQL creates a unique B-tree index on the column or a group of columns used to define the primary key.

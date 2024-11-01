@@ -1,0 +1,1 @@
+ getStaticProps - Make the page SSG, everything done in this function will be done on the server side only. The returned value can be passed to the page components as props. getServerSideProps - similar to above, but instead make the page SSR. This means getServerSideProps will run upon every page request.
