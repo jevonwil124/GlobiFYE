@@ -1,0 +1,11 @@
+== (Loose Equality):
+
+This operator checks for equality after performing type conversion.
+If the values being compared are of different types, JavaScript attempts to convert them to a common type before comparing.
+This can lead to unexpected results, as JavaScript may coerce values in unintended ways.
+
+=== (Strict Equality):
+
+This operator checks for equality without performing type conversion.
+Both the value and the type must be the same for the comparison to return true.
+This is generally more predictable, as it avoids JavaScript’s implicit type conversion.
